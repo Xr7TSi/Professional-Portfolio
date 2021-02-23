@@ -1,5 +1,23 @@
+
+
+
 :root {
 --darkBlue: rgb(30, 8, 153);
 --white: rgb(241, 230, 195);
+--green: rgb(10, 231, 128);
 
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    margin-bottom: 10px;
+}
+
+.border {
+    border-style: solid;
+    border-color: green;
 }
