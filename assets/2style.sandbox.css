@@ -1,0 +1,13 @@
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    margin-bottom: 10px;
+}
+
+.border {
+    border-style: solid;
+    border-color: green;
+}
