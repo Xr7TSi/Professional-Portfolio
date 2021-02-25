@@ -1,9 +1,9 @@
 # Professional-Portfolio
 
 
-This Portfolio creates is a template for sharing applications 
+This Portfolio creates is a template for sharing applications. 
 
-![code refactor demo](.assets/readme-image.png)
+![code refactor demo](./assets/readme-image.png)
 
 ## License
 [MIT](MIT License
