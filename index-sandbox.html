@@ -11,31 +11,83 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/style.css">
+       
     </head>
-   
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family:'Quicksand', sans-serif;">
-        <a class="navbar-brand" style="color: white; background-color: rgb(30, 8, 153); font-size: 32px; margin-left:25px ">Jonathan Rein</a>
-          
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+ 
+    <nav class="navbar navbar-expand navbar-dark bg-info">
+        <div class="container-fluid">
+        <a class="navbar-brand pb-2" href="#">Bootstrap 4</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav align-self-end flex-wrap" id="nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#about-me">About Me</a>
+                    <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#work">Work</a>
+                    <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact-me">Contact Me</a>
+                    <a class="nav-link" href="#">Item</a>
                 </li>
-              </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item10</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item11</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item12</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item13</a>
+                </li>
+                <li class="nav-item dropdown d-none">
+                    <a class="nav-link" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="navbar-toggler-icon"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right bg-info" aria-labelledby="navbarDropdownMenu">
+                    </ul>
+                </li>
+            </ul>
         </div>
-      </nav>
-      
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-7 py-4">
+                <div class="card border-info">
+                    <div class="card-body">
+                        <h3 class="card-title">Overflowing Navbar</h3>
+                        <h6 class="text-info">Resize the viewport to see the demo</h6>
+                        <p class="card-text">
+                            There are times when the Navbar has many menu items and they begin to wrap (undesireably) as the page width decreases. Using a little jQuery, we can automatically 
+                            collapse the extra menu items into a dropdown menu on the right. When the viewport is wide enought, the menu items return to the horizontal Navbar. 
+                            When there are no overflowing items, the dropdown menu is hidden.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>  
+
     <content>
       <body style="background-color: rgb(228, 220, 220); font-family:'Quicksand', sans-serif;">
         <!-- Replace background color with pattern. -->
@@ -120,7 +172,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" </a><h5>404-667-3545</h5></a>
+                    <a class="nav-link" href="4046673545"><h5>404-667-3545</h5></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="mailto: jrein1296@gmail.com"><h5>jrein1296@gmail.com</h5></a>
@@ -139,4 +191,6 @@
       </div>
       </nav>
     </footer>  
+
+
   </html>
