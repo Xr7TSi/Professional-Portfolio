@@ -1,7 +1,7 @@
 # Professional-Portfolio
 
 
-This Portfolio creates is a template for sharing applications. 
+This website presents a portfolio of applications. 
 
 ![code refactor demo](./assets/readme-image.png)
 
