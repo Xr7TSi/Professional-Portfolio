@@ -1,16 +1,4 @@
-.row {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
-.images {
-    margin-bottom: 10px;
-}
-
-.border {
-    border-style: solid;
-    border-color: green;
-}
 
 .navbar-brand { position: relative; z-index: 2; }
 
@@ -71,3 +59,13 @@
         transform: translate(0px,0px);
     } 
 }
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    margin-bottom: 10px;
+}
+
