@@ -1,6 +1,6 @@
 
 
-.navbar-brand { position: relative; z-index: 2; }
+/* .navbar-brand { position: relative; z-index: 2; }
 
 .navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
 
@@ -31,10 +31,10 @@
 .navbar.navbar-default .nav-collapse.in,
 .navbar.navbar-inverse .nav-collapse.in {
     transform: translate(0px,0px);
-}
+} */
 
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
     
     .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
@@ -58,7 +58,7 @@
     .navbar.navbar-inverse .nav-collapse.in.slide-down {
         transform: translate(0px,0px);
     } 
-}
+} */
 
 .row {
     margin-top: 10px;
