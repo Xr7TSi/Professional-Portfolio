@@ -1,11 +1,11 @@
 # Professional-Portfolio
 
 
-This website presents a portfolio of applications. 
+Welcome to Jonathan Reins Portfolio.  Here, you'll find links to some of my projects.
 
 [Go to Professional-Portfolio](https://xr7tsi.github.io/Professional-Portfolio/)
 
-![code refactor demo](./assets/readme-image.png)
+![code refactor demo](./assets/Jonathan-Rein-Portfolio-Update-Resize.png)
 
 ## License
 [MIT](MIT License
