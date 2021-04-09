@@ -3,6 +3,8 @@
 
 Welcome to Jonathan Rein's Portfolio.  You'll find links to some of my projects here.
 
+Professional-Portfolio uses Bootstrap, jQuery, HTML and CSS.
+
 [Go to Professional-Portfolio](https://xr7tsi.github.io/Professional-Portfolio/)
 
 ![code refactor demo](./assets/Jonathan-Rein-Portfolio-Update-Resize.png)
