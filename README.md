@@ -1,7 +1,7 @@
 # Professional-Portfolio
 
 
-Welcome to Jonathan Reins Portfolio.  Here, you'll find links to some of my projects.
+Welcome to Jonathan Rein's Portfolio.  You'll find links to some of my projects here.
 
 [Go to Professional-Portfolio](https://xr7tsi.github.io/Professional-Portfolio/)
 
