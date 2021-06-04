@@ -11,5 +11,35 @@
     color:black
 }
 
+/* .section-border{
+    border-style: solid;
+} */
 
+.blocktext270 {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 270px;
+}
+
+.blocktext120 {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 120px;
+}
+
+.button {
+    background-color: gray;
+}
+
+
+
+body {
+    background-image: url(assets/backgrounds/white-wood-vertical-texture.png);
+    font-family:'Quicksand', sans-serif;
+
+    }
 

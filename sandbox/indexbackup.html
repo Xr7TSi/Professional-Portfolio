@@ -6,7 +6,6 @@
 	<title>Jonathan Rein Portfolio</title>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <!-- JavaScript Bundle with Popper -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
   integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
   crossorigin="anonymous"></script>
@@ -14,90 +13,131 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
+  <body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-default" style="background-color: rgb(222, 222, 223)">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="color: white; background-color: rgb(30, 8, 153); font-size: 32px; margin-left: 25px" >Jonathan Rein</a>
+      </div>
 
-<nav class="navbar navbar-default sticky-top">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-      <span class="sr-only"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" style="color: white; background-color: rgb(30, 8, 153); font-size: 32px; margin-left: 25px" >Jonathan Rein</a>
-  </div>
-  
-  <div class="collapse navbar-collapse" id="navbar-collapse-1">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="nav-item">
-        <a class="nav-link" href="#about-me">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#work">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact-me">Contact</a>
-      </li> 
-    </ul>
-  </div>       
-</nav>
-  
-<content style="margin-top:10px">
-  <body style="background-color: rgb(228, 220, 220); font-family:'Quicksand', sans-serif;">
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact</a>
+          </li> 
+        </ul>
+      </div>       
+    </nav>
+  </header>
+
+  <content style="margin-top:10px">
     <div class="container" style="margin-left: 15px;">
-      <!--row 1-->
-      <div id="about-me" class="row">
-          <div class="col-md-2" >
-              <h3>About Me</h3>
-          </div>
-              <div class="col-md-5" >
-                  <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nam neque odit esse ratione excepturi fugit quod vitae numquam, nesciunt dolor, ducimus hic ad et quis architecto. Pariatur, reiciendis tempora?</h5>
-                  <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nam neque odit esse ratione excepturi fugit quod vitae numquam, nesciunt dolor, ducimus hic ad et quis architecto. Pariatur, reiciendis tempora?</h5>
+      <div id="about-me" class="row section-border">
+          
+              <div class="col-md-12 blocktext120" >
+                  <h3>I'm Jonathan.  I develop full-stack web applications.</h3>
+                  <h4>Check out some of my work below.</h4>
                 </div>
-          <div class="col-md-5">
-              <img src="assets\Family2.png" class="images" alt="family picture">
-          </div>
+         
       </div>
   
-      <div class="row">
-        <div class="col-md-2">
-          <h3>Work</h3>
+
+      <div class="row section-border">
+        <div class="col-md-5">
+          <a href="https://tick-tock-birthday-clock.herokuapp.com/">
+            <img src="assets/Birthday-Clock-400x250.png" class="images" alt="Tick Tock Birthday Clock website image">
+          </a>
         </div>
-          <div class="col-md-5">
-            <a href="https://xr7tsi.github.io/News-Flash/">
-              <img src="assets\News-Flash-350x.png" class="images" alt="NewsFlash website image">
-            </a>
-            <h5>News Flash</h5>
+        <div class="col-md-5 blocktext270">
+          <h5>
+           Tick Tock Birthday Clock is an application that gives the user a chance to see a countdown to their birthday, create a birthday wishlist and check out their friend's wishlists. 
+          </h5>
+          <h5>
+            Tick Tock Birthday Clock is built with JavaSCript.  It uses mysql, bcrypt, dotenv, express, handlebars, bootstrap, session and sequelize.  It's deployed on Heroku. 
+           </h5>
+          <h6>
+            <a class="link-text button" href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock">Visit the TickTock Birthday Clock Github Repository</a>
+          </h6>
         </div>
-          <div class="col-md-5">
-            <a href="https://xr7tsi.github.io/Weather-Dashboard/">
-              <img src="assets\Weather-Dashboard-Resize-350x.png" class="images" alt="Weather Dashboard website image">
-            </a>
-            <h5>Weather Dashboard</h5>
-          </div>
       </div>
-    
-      <div class="row">
-        <div class="col-md-2">
+
+
+      <div class="row section-border">
+        <div class="col-md-5">
+          <a href="https://xr7tsi.github.io/News-Flash/">
+            <img src="assets\News-Flash-400x250.png" class="images" alt="NewsFlash website image">
+          </a>
         </div>
-          <div class="col-md-5">
-            <a href="https://xr7tsi.github.io/Work-Day-Scheduler/">
-              <img src="assets\Work-Day-Scheduler-Resize-350x.png" class="images" alt="WorkDay Scheduler website image">
-            </a>
-            <h5>Work Day Scheduler</h5>
+        <div class="col-md-5 blocktext270">
+          <h5>
+           News Flash is a news aggregator that presents stories pulled from the web based on the user's news category preferences.   
+          </h5>
+          <h5>
+            News Flash is built with JavaSCript.  It uses APIs, bootstrap and local storage.   
+           </h5>
+          <h6>
+            <a class="link-text button" href="https://github.com/Xr7TSi/News-Flash">Visit the News Flash Github Repository</a>
+          </h6>
         </div>
-          <div class="col-md-5">
-            <a href="https://xr7tsi.github.io/Password-Generator/">
-              <img src="assets\Password-Generator-Resize-350x.png" class="images" alt="Password Generator website image">
-            </a>
-            <h5>Password Generator</h5>
-          </div>
       </div>
+
+
+      <div class="row section-border">
+        <div class="col-md-5">
+          <a href="https://xr7tsi.github.io/Weather-Dashboard/">
+            <img src="assets\Weather-Dashboard-400x250.png" class="images" alt="Weather Dashboard website image">
+          </a>
+        </div>
+        <div class="col-md-5 blocktext270">
+          <h5>
+           Weather Dashboard gives the user the current weather and a five day forecast for any city in the world.
+          </h5>
+          <h5>
+            Weather Dashboard is built with JavaSCript.  It uses APIs, bootstrap and local storage.  
+           </h5>
+          <h6>
+            <a class="link-text button" href="https://github.com/Xr7TSi/Weather-Dashboard">Visit the Weather Dashboard Github Repository</a>
+          </h6>
+        </div>
+      </div>
+
+
+      <div class="row section-border">
+        <div class="col-md-5">
+          <a href="https://xr7tsi.github.io/Workday-Scheduler/">
+              <img src="assets\Work-Day-Scheduler-400x250.png" class="images" alt="Workday Scheduler website image">
+            </a>
+        </div>
+        <div class="col-md-5 blocktext270">
+          <h5>
+           Workday Scheduler is a simple day planner.
+          </h5>
+          <h5>
+            Workday Scheduler is built with JavaSCript.  It uses moment.js, bootstrap and local storage.  
+           </h5>
+          <h6>
+            <a class="link-text button" href="https://github.com/Xr7TSi/Workday-Scheduler">Workday Scheduler Github Repository</a>
+          </h6>
+        </div>
+      </div>
+
 
     </div>
-  </body>
-</content>
+  </content>
 
-  <footer class="navbar navbar-default">
+  <footer class="navbar navbar-default" style="margin-bottom: 0px; background-color: rgb(222, 222, 223)">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
         <span class="sr-only"></span>
@@ -114,10 +154,16 @@
           <a class="nav-link" href="mailto: jrein1296@gmail.com"><h5>jrein1296@gmail.com</h5></a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="tel:404-667-3545"><h5>404-667-3545</h5></a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="https://github.com/Xr7TSi"><h5>GitHub</h5></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.linkedin.com/in/jonathan-rein"><h5>Linkedin</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vQNIXOZBbExarlcZ2Bx8j77IGd1GlLuicBgRYirct5Ru1CEIHU57YNGps_HXoIj_IOZ6AWQYV1ZtuSm/pub"><h5>Resume</h5></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.strava.com/athletes/jonathan_rein"><h5>Strava</h5></a>
@@ -126,5 +172,6 @@
       </div>
     </div>       
   </footer>
+</body>
 
 </html>
