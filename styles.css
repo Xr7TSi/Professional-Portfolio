@@ -33,13 +33,13 @@
 
 .button {
     background-color: gray;
+    color: white
 }
 
 
 
 body {
     background-image: url(assets/backgrounds/white-wood-vertical-texture.png);
-    font-family:'Quicksand', sans-serif;
-
+    font-family:'Source+Sans+Pro', sans-serif;
     }
 
