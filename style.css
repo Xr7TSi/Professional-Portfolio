@@ -33,6 +33,11 @@
     color: white
 }
 
+.carousel-caption {
+    position: absolute;
+    top: 350px
+ }
+
 
 
 body {
