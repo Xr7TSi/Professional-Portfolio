@@ -9,9 +9,6 @@
   margin-top: 10px;
 }
 
-/* .section-border{
-    border-style: solid;
-} */
 
 .blocktext270 {
   display: flex;
@@ -41,6 +38,14 @@
   
 }
 
+.btn-primary {
+  color: white; 
+  background-color: rgb(30, 8, 153); 
+  font-size: 28px; 
+  margin-left: 0px; 
+  margin-top: 45px
+}
+
 
 .carousel-caption {
   position: absolute;
@@ -68,6 +73,7 @@
   width: 30px;
   height: 48px;
 }
+
 
 #home-text{
   margin-top: 210px;
