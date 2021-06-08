@@ -12,7 +12,7 @@
 
 .blocktext270 {
   display: flex;
-  justify-content: right;
+  justify-content: left;
   flex-direction: column;
   height: 270px;
   color: rgb(31, 17, 83)
