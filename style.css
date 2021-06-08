@@ -13,7 +13,7 @@
 
 .blocktext270 {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-direction: column;
   height: 270px;
   color: rgb(31, 17, 83)
@@ -21,16 +21,21 @@
 
 .blocktext120 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: column;
   height: 120px;
   color: rgb(31, 17, 83)
 }
 
 .button {
-  
   color: rgb(31, 17, 83)
 }
+
+.btn-group {
+  height: 100px;
+  top: 150px;
+}
+
 
 .carousel-caption {
   position: absolute;

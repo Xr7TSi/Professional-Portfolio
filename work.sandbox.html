@@ -11,14 +11,43 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
     <body>
+
+      <header class="sticky-top">
+        <nav class="navbar navbar-default" style="background-color: rgb(222, 222, 223)">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" style="color: white; background-color: rgb(30, 8, 153); font-size: 32px; margin-left: 25px" >Jonathan Rein</a>
+          </div>
+      
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li> 
+            </ul>
+          </div>       
+        </nav>
+      </header>
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="200">
                 <img src="assets\work-images\Birthday-Clock-2000x900.png" class="d-block w-100" alt="Tick Tock Birthday Clock image">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="11000" >
                 <img src="assets\work-images\Birthday-Clock-2000-900-blur.png" class="d-block w-100" alt="Tick Tock Birthday Clock image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
@@ -37,11 +66,17 @@
                   </div>
                 </div>
               </div>
+              
 
-              <div class="carousel-item">
+              <!-- provides period of no image between slides to avoid cross-fade of different apps -->
+              <div class="carousel-item" data-bs-interval="100">
+                <img  class="d-block w-100" >
+              </div>
+
+              <div class="carousel-item" data-bs-interval="200">
                 <img src="assets\work-images\News-Flash-2000x900.png" class="d-block w-100" alt="News Flash image">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="11000">
                 <img src="assets\work-images\News-Flash-2000x900-blur.png" class="d-block w-100" alt="News Flash image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
@@ -60,10 +95,16 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+
+              <!-- provides period of no image between slides to avoid cross-fade of different apps -->
+              <div class="carousel-item" data-bs-interval="100">
+              <img  class="d-block w-100" >
+              </div>
+
+              <div class="carousel-item" data-bs-interval="200">
                 <img src="assets\work-images\Weather-Dashboard-2000x900.png" class="d-block w-100" alt="Weather Dashboard image">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="11000">
                 <img src="assets\work-images\Weather-Dashboard-2000x900-blur.png" class="d-block w-100" alt="Weather Dashboard image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
@@ -82,10 +123,16 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+
+                <!-- provides period of no image between slides to avoid cross-fade of different apps -->
+              <div class="carousel-item" data-bs-interval="100">
+              <img  class="d-block w-100" >
+              </div>
+
+              <div class="carousel-item" data-bs-interval="200">
                 <img src="assets\work-images\Work-Day-Scheduler-2000x900.png" class="d-block w-100" alt="Workday Scheduler image">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="11000">
                 <img src="assets\work-images\Work-Day-Scheduler-2000x900-blur.png" class="d-block w-100" alt="Workday Scheduler image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
@@ -104,6 +151,12 @@
                   </div>
                 </div>
               </div>
+
+              <!-- provides period of no image between slides to avoid cross-fade of different apps -->
+              <div class="carousel-item" data-bs-interval="100">
+              <img  class="d-block w-100" >
+              </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
