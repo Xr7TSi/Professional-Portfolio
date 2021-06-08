@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
-    <meta charset="utf-8">
-	<title>Jonathan Rein Portfolio</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta charset="utf-8">
+<title>Jonathan Rein Work</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
     <body>
-
+     
       <header class="sticky-top">
-        <nav class="navbar navbar-default" style="background-color: rgb(222, 222, 223)">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-              <span class="sr-only"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+          <div class="container-fluid">
+            <a class="navbar-brand" style="color: white; background-color: rgb(30, 8, 153); font-size: 28px; margin-left: 25px" >Jonathan Rein</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" style="color: white; background-color: rgb(30, 8, 153); font-size: 32px; margin-left: 25px" >Jonathan Rein</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+              </ul>
+            </div>
           </div>
-      
-          <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-              <li class="nav-item">
-                <a class="nav-link" href="#about-me">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="work.html">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li> 
-            </ul>
-          </div>       
         </nav>
       </header>
+     
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
+
+              <!-- provides period of no image between slides to avoid cross-fade of different apps -->
+              <div class="carousel-item" data-bs-interval="100">
+                <img  class="d-block w-100" >
+              </div>
+
               <div class="carousel-item active" data-bs-interval="200">
                 <img src="assets\work-images\Birthday-Clock-2000x900.png" class="d-block w-100" alt="Tick Tock Birthday Clock image">
               </div>
@@ -51,17 +52,15 @@
                 <img src="assets\work-images\Birthday-Clock-2000-900-blur.png" class="d-block w-100" alt="Tick Tock Birthday Clock image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
-                    <h1>
-                     Tick Tock Birthday Clock gives the user a countdown to their birthday, a place to create and store their birthday wishlist and check out their friend's wishlists. 
-                    </h1>
-                    <h1>
-                      Tick Tock Birthday Clock is built with JavaSCript.  It uses mysql, bcrypt, dotenv, express, handlebars, bootstrap, session and sequelize.  It's deployed on Heroku. 
-                     </h1>
                     <h3>
-                      <a class="link-text button" href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock">Visit the TickTock Birthday Clock Github Repository</a>
+                     Tick Tock Birthday Clock gives the user a place to create and store their birthday wishlist, check out their friend's wishlists and see a countdown to their birthday. 
                     </h3>
                     <h3>
-                      <a class="link-text button" href="https://tick-tock-birthday-clock.herokuapp.com/">See TickTock Birthday Clock deployed on Heroku</a>
+                      It's built with JavaScript.  It uses mysql, bcrypt, dotenv, express, handlebars, bootstrap, session and sequelize.  It's deployed on Heroku. 
+                     </h3>
+                    <h3>
+                      <a href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock" class="btn btn-primary"><h5>See the repo</h5></a>
+                      <a href="https://tick-tock-birthday-clock.herokuapp.com/" class="btn btn-primary"><h5>See it deployed</h5></a>
                     </h3>
                   </div>
                 </div>
@@ -80,18 +79,16 @@
                 <img src="assets\work-images\News-Flash-2000x900-blur.png" class="d-block w-100" alt="News Flash image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
-                    <h1>
+                    <h3>
                      News Flash is a news aggregator that presents stories pulled from the web based on the user's news category preferences.   
-                    </h1>
-                    <h1>
-                      News Flash is built with JavaSCript.  It uses APIs, bootstrap and local storage.   
-                     </h1>
-                    <h3>
-                      <a class="button" href="https://github.com/Xr7TSi/News-Flash">Visit the News Flash Github Repository</a>
                     </h3>
                     <h3>
-                      <a class="button" href="https://xr7tsi.github.io/News-Flash/">See News Flash deployed on Github</a>
-                    </h3>
+                      It's built with JavaScript.  It uses APIs, bootstrap and local storage.   
+                     </h3>
+                      <h3>
+                        <a href="https://github.com/Xr7TSi/News-Flash" class="btn btn-primary"><h5>See the repo</h5></a>
+                        <a href="https://xr7tsi.github.io/News-Flash/" class="btn btn-primary"><h5>See it deployed</h5></a>
+                      </h3>
                   </div>
                 </div>
               </div>
@@ -108,26 +105,21 @@
                 <img src="assets\work-images\Weather-Dashboard-2000x900-blur.png" class="d-block w-100" alt="Weather Dashboard image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
-                    <h1>
-                     Weather Dashboard gives the user the current weather and a five day forecast for any city in the world.
-                    </h1>
-                    <h1>
-                      Weather Dashboard is built with JavaSCript.  It uses APIs, bootstrap and local storage.  
-                     </h1>
                     <h3>
-                      <a class="button" href="https://github.com/Xr7TSi/Weather-Dashboard">Visit the Weather Dashboard Github Repository</a>
+                     Weather Dashboard gives the user the current weather and a five day forecast for any city in the world.
                     </h3>
                     <h3>
-                      <a class="button" href="https://xr7tsi.github.io/Weather-Dashboard/">See Weather Dashboard deployed on Github</a>
+                      It's built with JavaScript.  It uses APIs, bootstrap and local storage.  
+                     </h3>
+                    <h3>
+                      <a href="https://github.com/Xr7TSi/Weather-Dashboard" class="btn btn-primary"><h5>See the repo</h5></a>
+                      <a href="https://xr7tsi.github.io/Weather-Dashboard/" class="btn btn-primary"><h5>See it deployed</h5></a>
                     </h3>
                   </div>
                 </div>
               </div>
 
-                <!-- provides period of no image between slides to avoid cross-fade of different apps -->
-              <div class="carousel-item" data-bs-interval="100">
-              <img  class="d-block w-100" >
-              </div>
+            
 
               <div class="carousel-item" data-bs-interval="200">
                 <img src="assets\work-images\Work-Day-Scheduler-2000x900.png" class="d-block w-100" alt="Workday Scheduler image">
@@ -136,17 +128,15 @@
                 <img src="assets\work-images\Work-Day-Scheduler-2000x900-blur.png" class="d-block w-100" alt="Workday Scheduler image">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="col-md-12 blocktext270">
-                    <h1>
-                     Workday Scheduler is a simple day planner.
-                    </h1>
-                    <h1>
-                      Workday Scheduler is built with JavaScript.  It uses moment.js, bootstrap and local storage.  
-                     </h1>
                     <h3>
-                      <a class="button" href="https://github.com/Xr7TSi/Workday-Scheduler">Workday Scheduler Github Repository</a>
+                     Workday Scheduler is a simple day planner.
                     </h3>
                     <h3>
-                      <a class="button" href="https://xr7tsi.github.io/Workday-Scheduler/">See Workday Scheduler deployed on Github</a>
+                      It's built with JavaScript.  It uses moment.js, bootstrap and local storage.  
+                    </h3>
+                    <h3>
+                      <a href="https://github.com/Xr7TSi/Workday-Scheduler" class="btn btn-primary"><h5>See the repo</h5></a>
+                      <a href="https://xr7tsi.github.io/Workday-Scheduler/" class="btn btn-primary"><h5>See it deployed</h5></a>
                     </h3>
                   </div>
                 </div>
@@ -167,12 +157,6 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
-
-
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
